@@ -21,7 +21,8 @@ class CountryList {
                       "Ijroiya hokimiyat federal kansler boshchiligidagi federal hukumat qoʻlida. Federal kansler bundestagda prezidentning taklifiga binoan koʻpchilik ovoz bilan saylanadi. Vazirlar federal kanslerning " +
                       "taklifi bilan prezident tomonidan tayinlanadi. Har bir yerning oʻz konstitutsiyasi, parlament va hukumati bor.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -34,7 +35,8 @@ class CountryList {
                       "Davlat tuzumi. Italiya — respublika. Amaldagi konstitutsiyasi 1947-y. 22 dek. da qabul qilingan va 1948-y. 1 yanv. dan kuchga kirgan. " +
                       "Davlat boshligi — prezident (1999-y. maydan K. A. Champi). U parlament ikkala palatasining qoʻshma majlisida viloyatlar vakillari ishtirokida 7 y. muddatga saylanadi. " +
                       "Qo-nun chiqaruvchi organ deputatlar palatasi va senatdan iborat parlament. Ijrochi xrkimiyatni Vazirlar Kengashi amalga oshiradi. Prezident Vazirlar Kengashi raisi " +
-                      "va uning taklifiga binoan vazirlarni tayinlaydi.", "Yevropa", 3
+                      "va uning taklifiga binoan vazirlarni tayinlaydi.", "Yevropa", 3,
+              false
           )
       )
       listCountry.add(
@@ -51,7 +53,8 @@ class CountryList {
                       "\n" +
                       "Birlashgan Qirollikda foydali qazilmalar kam. Asosan temir rudasi va yuqori sifatli toshkoʻmir, tosh tuz, kaolin, ozroq miqdorda yonuvchi slanes qazib olinadi. Neft va rangli metall konlari mavjud. Shimoliy dengizning Birlashgan Qirollik qirtogʻi yaqinida tabiiy gaz konlari bor.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -66,7 +69,8 @@ class CountryList {
                       "Logen (Gudbransdal), Logen (Numedal). Katta gidroenergiya salohiyatiga ega boʻlgan bu daryolar qor, yomgʻir va muzliklardan toʻyinadi. Eng katta koʻli — Myosa. Asosiy tuprogʻi — yupqa tundra tuprogʻi, janubda togʻ podzol tuprogʻi uchraydi. Mamlakat hududining 27 % oʻrmon. Yovvoyi hayvonlardan tulki," +
                       " silovsin, rosomaxa, suvsar, los, bugʻu, quyon, tiyin, lemming va boshqalar bor. Dengiz sohilida gala-gala qushlar, dengizlarda turli baliq va tyulen koʻp.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -81,7 +85,8 @@ class CountryList {
                       "hududining 9% qoʻllar bilan band. Yirik koʻllari: Venern, Vettern, Yelmaren, Melaren. Hududining 57% oʻrmon, asosan, igna bargli daraxtlar, aralash oʻrmonlar, shimolida tundra oʻsimligi oʻsadi. Tuproqlari podzol, " +
                       "chimli podzol, qoʻngʻir oʻrmon, togʻ podzol, togʻ tundra va botqoq tuproqlar. shahrida oʻrmon hayvonlari va suv parrandalari koʻproq uchraydi. Abisku, Muddus, Sarsk Shyoffallet milliy bogʻlari va koʻrixonalar bor.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -96,7 +101,8 @@ class CountryList {
                       "Dare koʻp, qisqa, sersuv, serostona. Yiriklari — KemiYoki, KyumiYoki, KokemyaenYoki, TornioYoki. 60 mingga yaqin koʻl bor (mamlakat hududining 8%), yirik koʻli — Sayma. Botqoq koʻp. Hududning 61% oʻrmon, asosan, igna bargli daraxtlar," +
                       " janubidagi podzol, gleypodzol, torfli botqoq tuproklarda aralash oʻrmonlar, shimolida togʻ tundrasi. Yirik milliy bogʻlari — Lemmenyoki, PallasOunastunturi, Oulanka va boshqa Finlandiyada 18 qoʻriqxona bor.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -114,7 +120,8 @@ class CountryList {
                       "Aholisining 98 % danlar; olmonlar va frizlar ham bor. Aholining oʻrtacha zichligi bir km2 ga 114 kishi. Aholining 84,9 % shaharlarda yashaydi. Rasmiy tili — dan tili." +
                       " Dindorlarning 91 % — lyuteranlar. Yirik shaharlari: Kopengagen, Orxus, Odense, Olborg .",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -133,7 +140,8 @@ class CountryList {
                       "Aholisining 99 % islandlar. Qolgan qismi nemis, norveg va danlar. Rasmiy til — island tili. Dindor aholining 93 % protestant (lyuteran). Aholining " +
                       "91 % shaharlarda yashaydi. Yirik shaharlari: Reykyavik, Koupa-vogur, Akureyri.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -152,7 +160,8 @@ class CountryList {
                       "Irlandiyaning koʻp qismi torfli yalangliklar, oʻtloklar. Oʻtloqlari doimo koʻmkoʻk. Yalangliklarda torfli-botqoq va qumoq tuproqlar uchraydi. Oʻtloq joylarning tuprogʻi — podzol va oʻtloqpodzol tuproqlar. Hayvonlari Gʻarbiy Yevropanikiga " +
                       "oʻxshash, turi kam. Yovvo-yi hayvonlarning kupi qirib tashlangan. Milliy bogʻlari: Glenya, Killari.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -178,7 +187,8 @@ class CountryList {
                       "tasdiqladi. Shundan beri 25-aprel milliy bayram - Bayroq kuni (Flaggdagur) deb nishonlanadi. 1948-yil 23-martda ushbu " +
                       "bayroq Farer orollarining rasmiy bayrog'iga aylandi.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -213,7 +223,8 @@ class CountryList {
                       " qoʻriqxonalar. Koʻp qoʻriqxonalar togʻlarda joylashgan (Alpdagi Vanuaz va" +
                       " Pelvu milliy bogʻlari, Pireneydagi Neuvyel qoʻriqxonasi).",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -235,7 +246,8 @@ class CountryList {
                       "Rasmiy tili — fransuz, niderland va nemis tili. Dindorlarning aksariyati katoliklar. " +
                       "Yirik shaharlari: Bryussel, Antverpen, Lyej, Rent, Sharlerua.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -261,7 +273,8 @@ class CountryList {
                       " Daryo deltalaridagi suzuvchi qushlar qishlaydigan joylar qoʻriqlanadi. Velyuzom, Kennemer doʻngliklari, Xoge-Velyuve milliy bogʻlari " +
                       "va 8 ta qoʻriqxonasi bor.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -273,7 +286,8 @@ class CountryList {
                       " Gʻarbida Reyn vodiysi joylashgan. Iqlimi moʻʼtadil, yillik yogʻin — 700–1200 mm. Hududining 1/4 qismi oʻrmon, asosan, qoraqaragʻay, qora qayin," +
                       " eman oʻsadi. Togʻlarda subalp va alp oʻtlokdari bor.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
       listCountry.add(
@@ -287,7 +301,8 @@ class CountryList {
                       " iyulniki 17° atro-fida. Yillik yogʻin 700-800 mm. Daryolari zich, sertarmoq, asosiy daryosi — Mozel. Tuprogi aksar qismida qoʻngʻir " +
                       "oʻrmon va chimli podzol tuproq. Luksemburg hududining 1/3 qismi (asosan, shim.) oʻrmon.",
               "Yevropa",
-              3
+              3,
+              false
           )
       )
   }

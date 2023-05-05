@@ -18,4 +18,15 @@ interface CountryDao {
 
     @Query("select * from CountryEntity")
     fun getCountryList():LiveData<List<CountryEntity>>
+
+    @Query("select * from CountryEntity where name like '%'||:str||'%' or capital like '%'||:str||'%'  " )
+    fun search(str:String):LiveData<List<CountryEntity>>
+
+     @Query("select * from CountryEntity where favourite =1" )
+     fun getFavouriteCountries():LiveData<List<CountryEntity>>
+
+      @Query("select * from CountryEntity where id =:id" )
+      fun getCountry(id:Int):LiveData<CountryEntity>
+
+
 }

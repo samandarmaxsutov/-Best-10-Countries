@@ -12,5 +12,6 @@ data class CountryEntity(
     val image: Int,
     val aboutText:String,
     val location: String,
-    val starts:Int
+    val starts:Int,
+    val favourite:Boolean
 ): Serializable

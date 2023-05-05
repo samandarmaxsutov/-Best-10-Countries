@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeScreen_to_countryAboutScreen"
             app:destination="@id/countryAboutScreen" />
+        <action
+            android:id="@+id/action_homeScreen_to_favouriteScreen"
+            app:destination="@id/favouriteScreen" />
     </fragment>
     <fragment
         tools:layout="@layout/fragment_splash_screen"
@@ -32,5 +35,14 @@
         <argument
             android:name="country"
             app:argType="com.example.best10countriesapp.feature1.model.repository.local.room.entities.CountryEntity" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteScreen"
+        android:name="com.example.best10countriesapp.feature1.ui.screens.favourite.FavouriteScreen"
+        android:label="fragment_favourite_screen"
+        tools:layout="@layout/fragment_favourite_screen" >
+        <action
+            android:id="@+id/action_favouriteScreen_to_countryAboutScreen"
+            app:destination="@id/countryAboutScreen" />
     </fragment>
 </navigation>

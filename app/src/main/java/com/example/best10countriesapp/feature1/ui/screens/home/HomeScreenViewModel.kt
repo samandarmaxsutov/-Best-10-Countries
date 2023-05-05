@@ -21,4 +21,16 @@ class HomeScreenViewModel : ViewModel() {
         }
 
     }
+
+    fun search(words:String){
+        if (words.isNotEmpty()) {
+            countriesLiveData.addSource(appDatabase.getCountryDao().search(words)) {
+                countriesLiveData.value = it
+            }
+        }else{
+            countriesLiveData.addSource(appDatabase.getCountryDao().getCountryList()){
+                countriesLiveData.value=it
+            }
+        }
+    }
 }
